@@ -8,3 +8,6 @@ tasks:
         cp .env.example .env
       command: >
         npm i vercel -g
+vscode:
+  extensions:
+    - sirtori.indenticator@0.7.0:XXP11mgN1178eZKRS1jiWQ==
