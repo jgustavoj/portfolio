@@ -1,39 +1,51 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Source Sans Pro", sans-serif;
-  text-decoration: none;
+
+//response @ smartphones 
+
+@media (max-width: 575px) {
+    h1{
+        font-size: 0.85rem;
+    }
+
+}
+// response @ smartphones to tablets 
+@media (min-width: 576px) { 
+	body {
+        background-color: indigo;
+    }
+    h1{
+        font-size: 1.2rem;
+    }
 }
 
-// h1 {
-//   font-weight: 500;
-// }
+//response @ Tablets
 
-
-.fab{
-    margin-left: 10px;
-    float: right;
+@media (min-width: 768px){
+	body {
+        background-color: blue;
+    }
+    h1 {
+        font-size: 1.7rem;
+    }
 }
 
-.container {
- min-height: 100vh; /* will cover the 100% of viewport */
- overflow: hidden;
- display: block;
- position: relative;
- padding-bottom: 100px; /* height of your footer */
-}
+//response @ Desktop 
 
-footer {
- position: absolute;
- bottom: 0;
- width: 100%;
-}
+@media (min-width: 992px){
+	body {
+        background-color: yellow;
+    }
+    h1 {
+        font-size: 2.2rem;
+    }
+ }
 
-#intro{
-    background-color: rgb(230, 230, 230);
-}
+//Response @ large displays 
 
-#about{
-    margin: 100px auto;
+@media (min-width: 1200px){ 
+	body {
+        background-color: orange;
+    }
+    h1 {
+        font-size: 2.7rem;
+    }
 }

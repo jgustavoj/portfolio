@@ -1,3 +1,44 @@
 /* 
     General Styles
 */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  text-decoration: none;
+}
+
+// h1 {
+//   font-weight: 500;
+// }
+
+
+.fab{
+    margin-left: 10px;
+    float: right;
+}
+
+.container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 100px; /* height of your footer */
+}
+
+footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+}
+
+#intro{
+    background-color: rgb(230, 230, 230);
+}
+
+#about{
+    margin: 100px auto;
+    width: 100%;
+    height: auto;
+}

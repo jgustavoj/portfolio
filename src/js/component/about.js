@@ -5,7 +5,7 @@ export const About = () => {
 	return (
 		<>
 			<div className="row mt-5" id="about">
-				<div className="col-sm" id="intro">
+				<div className="col" id="intro">
 					<h1>
 						Hello, <br />
 						My name is Gustavo, <br />
