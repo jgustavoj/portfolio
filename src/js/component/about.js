@@ -1,20 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import image2 from "../../img/image2.jpg";
+import resize from "../../img/resize.jpg";
 
 export const About = () => {
 	return (
 		<>
 			<div className="content-fluid row mt-5" id="about">
-				<div className="col" id="intro">
-					<h1>
+				<div className="col-8" id="intro">
+					<span style={{ fontSize: "4.8vw" }}>
 						Hello, <br />
 						My name is Gustavo, <br />
 						some people call me Gus, <br />
 						others “Goose” and I’m a Full Stack Developer.
-					</h1>
+					</span>
 				</div>
-				<div className="col">
+				<div className="col" style={{ color: "darkBlue", fontSize: "1.1vw" }}>
 					<i className="fab fa-linkedin-in fa-2x" />
 					<i className="fab fa-github fa-2x" />
 					<i className="fab fa-twitter fa-2x" />
@@ -32,7 +32,7 @@ export const About = () => {
 			</div> */}
 			<div className="">
 				{/* this image needs to be wide  */}
-				<img src={image2} className="img-fluid" alt="about" />{" "}
+				<img src={resize} className="img-fluid" alt="about" />{" "}
 			</div>
 		</>
 	);
